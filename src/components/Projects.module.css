@@ -1,0 +1,46 @@
+.main{
+    height: 205vh;
+    background-color: rgb(32, 31, 31);
+    
+}
+.head{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    font-size: 3rem;
+}
+.box{
+  
+    width:20rem;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap:3rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+
+}
+.image{
+    height: 18rem;
+    width: 18rem;
+    border-radius: 15px;
+}
+.project{ 
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: rgb(11, 37, 60);
+    color:#ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.box h1{
+    margin-block: 1rem;
+}
