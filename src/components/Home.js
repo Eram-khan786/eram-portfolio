@@ -18,7 +18,7 @@ const Home = () => {
              I always do my best in what I take, embodying dedication and a positive attitude as a web developer. I am a very positive person who loves learning new things, and I'm always ready to tackle problems, making continuous learning and creative problem-solving a vital part of my journey in the ever-evolving world of web development.
           </p>
          
-           <Link to="https://drive.google.com/drive/folders/1wdlzMAq4TUef2fe6pCbHWNsSrPDOLbyk" target="_blank">
+           <Link to="https://drive.google.com/file/d/1veF7oEMnqdAQKHIDgk4eYUCc29sUv88j/view" target="_blank">
               <button className={styles.resume} >Resume</button>
            </Link>
 
