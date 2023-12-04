@@ -1,6 +1,6 @@
 .main {
     background-color: rgb(32, 31, 31);
-    height: 127vh;
+    height: auto;
   }
   
   .heading {
@@ -20,7 +20,7 @@
   }
   
   .marginleft {
-    margin-left: 30rem;
+    margin-inline: 30rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@
     border-radius: 2rem;
     font-size: 0.9rem;
     cursor: pointer;
-
+    margin-bottom: 1rem;
     /* margin-left: 20rem; */
   }
   .bttn:hover{
@@ -53,3 +53,41 @@
     font-size: 1rem;
     border:1px solid black;
   }
+  /* Existing styles here */
+
+@media (max-width: 1200px) {
+  .marginleft {
+    margin-left: 15rem;
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .marginleft {
+    margin-left: 5rem;
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .marginleft {
+    margin-left: 5rem;
+    width: 70%;
+  }
+}
+
+@media (max-width: 320px) {
+  .marginleft {
+    margin-left:1rem;
+    width: 70%;
+  }
+}
+
+/* Additional media query for screens larger than 1200px if needed */
+
+@media (min-width: 1201px) {
+  .marginleft {
+    margin-left: 30rem;
+    width: 35rem;
+  }
+}

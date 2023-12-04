@@ -1,5 +1,5 @@
 .main{
-    height: 205vh;
+    height: auto;
     background-color: rgb(32, 31, 31);
     
 }
@@ -23,8 +23,9 @@
     display: flex;
     flex-wrap: wrap;
     gap:3rem;
-    margin-left: 5rem;
+    margin-inline: 2rem;
     margin-top: 3rem;
+    padding-bottom: 2rem;
 
 }
 .image{
@@ -44,3 +45,77 @@
 .box h1{
     margin-block: 1rem;
 }
+
+
+/* Existing styles here */
+
+@media (max-width: 1200px) {
+    /* .flex {
+      margin-left: 2rem;
+    } */
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+  
+    .box {
+      width: calc(33.33% - 2rem);
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* .flex {
+      margin-left: 1rem;
+    } */
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+  
+    .box {
+      width: calc(50% - 2rem);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* .flex {
+      margin-left: 0.5rem;
+    } */
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+    .box {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    /* .flex {
+      margin-left: 0.5rem;
+    } */
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+    .box {
+      width: 100%;
+    }
+  }
+  
+  /* Additional media query for screens larger than 1200px if needed */
+  
+  @media (min-width: 1201px) {
+    /* .flex {
+      margin-left: 5rem;
+    } */
+    .image{
+        width: 10rem;
+        height: 10rem;
+    }
+    .box {
+      width: 20rem;
+    }
+  }
+  

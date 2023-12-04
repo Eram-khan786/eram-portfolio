@@ -42,8 +42,7 @@ const Contact = () => {
             <button className={styles.bttn} type="submit">
               Send
             </button>
-            </div>
-           
+            </div>           
           {/* </div> */}
         </form>
       </div>

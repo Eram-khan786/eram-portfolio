@@ -1,11 +1,12 @@
 .main{
-    height: 120vh;
+    height: auto;
     /* background-color: #000000; */
     background-color: rgb(32, 31, 31);
 
 }
 .margin{
     margin-left: 6rem;
+    padding-bottom: 2rem;
 }
 .heading{
     background-color: #000000;
@@ -20,7 +21,7 @@
 
 .box{
     height: 12rem;
-    width: 28rem;
+    width: 25rem;
     border: 1px dotted #ffffff;
     border-radius: 25px;
     display: flex;
@@ -51,6 +52,111 @@
 .box p{
     color: #ffffff;
     font-size: 3rem;
-    /* text-align: center; */
     margin-top: 5rem;
+    margin-left: 2rem;
 }
+
+
+/* Existing styles here */
+/* Existing styles here */
+
+@media (max-width: 768px) {
+    .main{
+        height: auto;
+    }
+    .margin {
+      margin-left: 1rem;
+    }
+  
+    .box p{
+        font-size: 2.5rem;
+    }
+    .box {
+      width: 80%;
+      flex-direction: row; 
+      margin-left: 3rem;
+    }
+  
+    .image {
+      order: -1; 
+      margin-bottom: 1rem;
+    }
+  
+    .box p {
+      margin-top: 3rem;
+      margin-left:2rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+
+    .main{
+        height: auto;
+    }
+    .margin {
+      margin-left: -1rem;
+    }
+  
+    .box {
+      width: 70%;
+      flex-direction: column; 
+      margin-bottom: 1rem;
+    }
+    
+    .image {
+      order: -1;
+      margin-bottom: 1rem;
+      margin-left: 2rem;
+    }
+  
+    .box p {
+      margin-top: 0; 
+      font-size: 1rem;
+      margin-left: 5rem;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .main{
+        height: auto;
+    }
+    .margin {
+      margin-left: 2rem;
+    }
+    .box p{
+        font-size: 2.5rem;
+    }
+    .box {
+      width: calc(50% - 2rem);
+      flex-direction: row; 
+    }
+  
+    .image {
+      order: 0;
+      margin-bottom: 0; 
+    }
+  }
+  
+
+  
+  @media (min-width: 1025px) {
+    .main{
+        height: auto;
+    }
+    
+    .margin {
+      margin-left: 7rem;
+    }
+  
+    .box {
+      width: 25rem;
+      flex-direction: row; 
+    }
+  
+    .image {
+      order: 0; 
+      margin-bottom: 0; 
+    }
+  }
+  
