@@ -60,7 +60,7 @@ const Projects = () => {
           <h1>Todo List</h1>
           <p> it offers users an interactive list for adding, deleting, and clearing items. It includes icons for easy removal and a visually appealing design.</p>
           <p> Through visual elements and intuitive icons, users can interact with the dynamic list, simplifying task organization and interaction. </p>
-          <Link to="https://soft-phoenix-d98ffe.netlify.app/" target="_blank">
+          <Link to="https://stirring-tiramisu-106465.netlify.app/" target="_blank">
               <button className={styles.project} >Click Me</button>
            </Link>
         </div>
